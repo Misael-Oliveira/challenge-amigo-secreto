@@ -126,7 +126,7 @@ button {
 }
 
 /* Listas */
-ul {
+p {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
@@ -141,7 +141,13 @@ ul {
     font-weight: bold;
     text-align: center;
 }
-
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
 /* Botão de sortear título */
 .button-draw {
     display: flex;
