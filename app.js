@@ -58,7 +58,7 @@ function exibirLista (){
 //Função que exibi o nome sorteado
     function sortearAmigo(){
        if(amigos.length==0){
-        alert("Sem nomes")
+        alert("Sem nomes!")
        }
        else{ exibirSorteado ()
        }    
